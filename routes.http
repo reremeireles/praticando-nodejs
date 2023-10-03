@@ -1,0 +1,31 @@
+// antes foi instalada a extensão REST Client que ajuda a criar rotas
+
+// os métodos abaixo servem para enviar dados para a requisição
+
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+  "title": "Don't blame me Music Video",
+  "description": "Music video by Taylor Swift",
+  "duration": 13
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/972f422c-dd7f-4880-9b9b-e88cc4bad1c0
+Content-Type: application/json
+
+{
+  "title": "Look What You Made Me Do Music Video",
+  "description": "Music video by Taylor Swift",
+  "duration": 13
+}
+
+###
+
+DELETE http://localhost:3333/videos/4514a203-4fa7-4a84-b8fc-e3edb47fcf73
