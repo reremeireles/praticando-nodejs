@@ -2,7 +2,7 @@
 
 // os métodos abaixo servem para enviar dados para a requisição
 
-POST http://localhost:3333/videos
+POST https://praticando-nodejs.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -13,19 +13,19 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET https://praticando-nodejs.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/972f422c-dd7f-4880-9b9b-e88cc4bad1c0
+PUT https://praticando-nodejs.onrender.com/videos/865bfa55-6189-4af7-8aea-ba869658e129
 Content-Type: application/json
 
 {
-  "title": "Look What You Made Me Do Music Video",
+  "title": "Dress Music Video",
   "description": "Music video by Taylor Swift",
   "duration": 13
 }
 
 ###
 
-DELETE http://localhost:3333/videos/4514a203-4fa7-4a84-b8fc-e3edb47fcf73
+DELETE https://praticando-nodejs.onrender.com/videos/865bfa55-6189-4af7-8aea-ba869658e129
